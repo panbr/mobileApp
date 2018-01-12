@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Microsoft JhengHei';
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.container {
+    margin: 0 auto;
+    background: #fff;
+    max-width: 780px;
+    padding: 5px 0;
+}
+
+.container .row {
+    margin: 15px 0;
+}
+
+.search {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.search input {
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 1.5em;
+    margin: 0 15px;
+    padding: 5px 10px;
+    background: #f8f8f8;
+}
+
+.slider img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.menu {
+    padding: 15px 10px;
+}
+
+.menu ul>li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu ul>li img {
+    width: 40px;
+    height: 40px;
+}
+
+.list {
+    padding-bottom: 50px;
+}
+
+.list .head {
+    background: #f8f8f8;
+    padding: 20px 10px;
+    overflow: auto;
+}
+
+.list .item {
+    padding: 0 10px;
+}
+
+.list .head .re {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 5px #000 solid;
+    padding-left: 10px;
+}
+
+.list .head .more {
+    float: right;
+    color: #aaa;
+}
+
+.list .item ul>li {
+    padding: 15px 0;
+    overflow: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.list .item ul>li .img img {
+    float: left;
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+
+.list .item ul>li .info {
+    height: 140px;
+    margin-left: 150px;
+
+    /*上下两栏布局*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list .item ul>li .info .header {
+    max-width: 100%;
+    font-size: 1.2rem;
+    min-height: 25px;
+    background: #fff;
+    font-weight: bold;
+    
+    /*两行溢出省略*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+} 
+
+.list .item ul>li .info .meta {
+    height: 26px;
+    line-height: 26px;
+    color: #aaa;
+}
+
+.list .item ul>li .info .meta span:last-child {
+    margin-right: 10px;
+}
+
+.list .item ul>li .info .meta .name {
+    background: url('../images/1.png') no-repeat left #fff;
+    background-size: 23px;
+    padding-left: 28px;
+}
+
+.list .item ul>li .info .meta .comment {
+    background: url('../images/2.png') no-repeat left #fff;
+    background-size: 23px;
+    padding-left: 28px;
+}
+
+.list .item ul>li .info .meta .like {
+    background: url('../images/3.png') no-repeat left #fff;
+    background-size: 23px;
+    padding-left: 28px;
+}
+
+.docker {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+    margin: 0 auto !important;
+    border-top: 1px solid #ddd;
+    z-index: 999;
+    background: #fff;
+    max-width: 780px;
+}
+
+.docker ul>li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.docker img {
+    width: 25px;
+}
